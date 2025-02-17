@@ -1,0 +1,53 @@
+/* Aplica regras de estilo para telas com largura máxima de 1005px */
+@media screen and (max-width:1005px) {
+   
+    /* Estilo para a barra de navegação (navbar) */
+    .navbar {
+        position: relative; /* Muda a posição da navbar para 'relative', permitindo posicionamento relativo aos elementos adjacentes */
+    }
+
+    /* Esconde o menu (menu) em telas pequenas */
+    .menu {
+        display: none; /* Esconde o menu quando a largura da tela for menor ou igual a 1005px */
+    }
+
+    /* Alinha o logo no centro da tela */
+    .logo {
+        margin: 0; /* Remove qualquer margem do logo */
+        text-align: center; /* Alinha o logo horizontalmente no centro */
+    }
+
+    /* Adiciona um espaçamento no topo do cabeçalho */
+    .header {
+        padding-top: 50px; /* Adiciona 50px de padding (espaço) no topo da seção de cabeçalho */
+    }
+
+    /* Aplica regras de layout para o texto (texto) */
+    .texto {
+        flex: 100%; /* Faz o texto ocupar 100% do espaço disponível */
+        margin: 5%; /* Adiciona uma margem de 5% em torno do elemento */
+        text-align: center; /* Alinha o texto ao centro */
+    }
+
+    /* Especifica que o texto dentro de .texto deve ter alinhamento central */
+    .texto p {
+        text-align: center; /* Alinha o conteúdo dentro da tag <p> ao centro */
+    }
+
+    /* Aplica regras para as imagens (img) */
+    .img {
+        flex: 100%; /* Faz as imagens ocuparem 100% do espaço disponível */
+        margin: 5%; /* Adiciona uma margem de 5% ao redor da imagem */
+        text-align: center; /* Centraliza a imagem horizontalmente */
+    }
+
+    /* Esconde o ícone de WhatsApp (whats) em telas pequenas */
+    .whats {
+        display: none; /* Esconde o ícone de WhatsApp quando a largura da tela for menor ou igual a 1005px */
+    }
+
+    /* Faz os cards ocuparem 100% da largura */
+    .card {
+        width: 100%; /* Faz o card ocupar toda a largura disponível */
+    }
+}
